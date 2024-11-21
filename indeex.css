@@ -1,0 +1,56 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+header .class a {
+    font-size: 18px;
+    gap: 30px;
+
+}
+.banner{
+    width: 100px;
+    height: 100vh;
+    text-align: center;
+}
+.banner h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.cardss{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.cardss img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
